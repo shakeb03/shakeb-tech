@@ -264,6 +264,7 @@ export const DataProvider = ({ children }) => {
     };
 
     initializeData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Load data from Supabase
