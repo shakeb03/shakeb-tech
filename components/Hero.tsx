@@ -138,7 +138,7 @@ export default function Hero() {
         {/* Badge with subtle effect */}
         <div className="flex justify-center mb-8">
           <div className="relative group">
-            <div className="relative bg-gradient-to-r from-cyan-500/15 to-purple-500/15 border border-cyan-400/40 rounded-full px-8 py-3 text-cyan-400 text-sm font-bold uppercase tracking-widest backdrop-blur-sm hover:border-cyan-400/60 transition-all">
+            <div className="relative bg-gradient-to-r from-cyan-500/15 to-purple-500/15 border border-cyan-400/40 rounded-full px-4 sm:px-8 py-2 sm:py-3 text-cyan-400 text-xs sm:text-sm font-bold uppercase tracking-wide sm:tracking-widest backdrop-blur-sm hover:border-cyan-400/60 transition-all text-center">
               {heroContent.badge_text}
             </div>
           </div>
@@ -146,29 +146,29 @@ export default function Hero() {
 
         {/* Main Title with subtle effect */}
         <h1 className="text-center mb-8 relative">
-          <div className="text-7xl md:text-9xl font-black tracking-tight animate-gradient bg-gradient-to-r from-white via-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-[length:200%_auto] transform hover:scale-105 transition-transform duration-300">
+          <div className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-black tracking-tight animate-gradient bg-gradient-to-r from-white via-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-[length:200%_auto] transform hover:scale-105 transition-transform duration-300">
             {firstWord}
           </div>
-          <div className="text-7xl md:text-9xl font-black tracking-tight animate-gradient bg-gradient-to-r from-white via-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-[length:200%_auto] transform hover:scale-105 transition-transform duration-300">
+          <div className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-black tracking-tight animate-gradient bg-gradient-to-r from-white via-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-[length:200%_auto] transform hover:scale-105 transition-transform duration-300">
             {restOfTitle}
           </div>
         </h1>
 
         {/* Subtitle with cyber effect */}
-        <p className="text-2xl md:text-3xl text-cyan-300/80 font-light text-center mb-8 tracking-wide">
-          <span className="border-l-4 border-cyan-400 pl-4">{heroContent.subtitle}</span>
+        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-cyan-300/80 font-light text-center mb-8 tracking-wide px-4">
+          <span className="border-l-2 sm:border-l-4 border-cyan-400 pl-3 sm:pl-4 inline-block">{heroContent.subtitle}</span>
         </p>
 
         {/* Description with enhanced highlighting */}
-        <p className="text-lg text-white/80 text-center max-w-3xl mx-auto mb-12 leading-relaxed">
+        <p className="text-sm sm:text-base md:text-lg text-white/80 text-center max-w-3xl mx-auto mb-12 leading-relaxed px-4">
           {highlightDescription(heroContent.description)}
         </p>
 
         {/* CTA Buttons with dramatic styling */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 px-4">
           <button
             onClick={() => scrollToSection('work')}
-            className="relative group overflow-hidden bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-10 py-5 font-bold uppercase tracking-wider hover:scale-110 transition-all duration-300 shadow-2xl hover:shadow-cyan-500/50"
+            className="relative group overflow-hidden bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-6 sm:px-10 py-4 sm:py-5 font-bold text-sm sm:text-base uppercase tracking-wide sm:tracking-wider hover:scale-105 sm:hover:scale-110 transition-all duration-300 shadow-2xl hover:shadow-cyan-500/50"
             style={{ clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)' }}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -178,7 +178,7 @@ export default function Hero() {
           </button>
           <button
             onClick={() => scrollToSection('contact')}
-            className="relative group overflow-hidden bg-transparent border-2 border-cyan-400 text-cyan-400 px-10 py-5 font-bold uppercase tracking-wider hover:scale-110 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50"
+            className="relative group overflow-hidden bg-transparent border-2 border-cyan-400 text-cyan-400 px-6 sm:px-10 py-4 sm:py-5 font-bold text-sm sm:text-base uppercase tracking-wide sm:tracking-wider hover:scale-105 sm:hover:scale-110 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50"
             style={{ clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)' }}
           >
             <div className="absolute inset-0 bg-cyan-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -189,18 +189,18 @@ export default function Hero() {
         </div>
 
         {/* Stats Grid with subtle effect */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto px-4">
           {stats.map((stat, index) => (
             <div
               key={stat.id}
               className="relative group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="relative holographic border border-cyan-400/30 rounded-lg p-6 text-center hover:scale-105 hover:border-cyan-400/60 transition-all duration-300 backdrop-blur-sm">
-                <div className="text-4xl md:text-5xl font-black bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">
+              <div className="relative holographic border border-cyan-400/30 rounded-lg p-4 sm:p-6 text-center hover:scale-105 hover:border-cyan-400/60 transition-all duration-300 backdrop-blur-sm">
+                <div className="text-3xl sm:text-4xl md:text-5xl font-black bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">
                   {stat.value}
                 </div>
-                <div className="text-cyan-300/70 text-xs uppercase tracking-widest font-semibold">
+                <div className="text-cyan-300/70 text-xs uppercase tracking-wide sm:tracking-widest font-semibold">
                   {stat.label}
                 </div>
               </div>
