@@ -1,0 +1,166 @@
+{
+  "profile": {
+    "name": "Shakebuddin Mohammed",
+    "alternateNames": [
+      "Shakeb Mohammed",
+      "Shakeb",
+      "Shakebuddin",
+      "Mohammed Shakebuddin"
+    ],
+    "title": "Full-Stack Engineer × Creative Technologist",
+    "description": "Building the future with AI-powered systems, immersive 3D experiences, and distributed architectures. Expert in modern web technologies and creative problem-solving.",
+    "website": "https://shakeb.tech",
+    "email": "shakeb0092@gmail.com",
+    "location": "Remote/Global",
+    "availability": "Available for full-time opportunities, freelance projects, and consulting work",
+    "experience": "",
+    "specialties": [
+      "AI-Powered Web Applications",
+      "3D Web Experiences",
+      "Distributed Systems Architecture",
+      "Creative Technology Solutions",
+      "Real-time Interactive Applications"
+    ],
+    "technologies": {
+      "frontend": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "Three.js",
+        "WebGL",
+        "Canvas API"
+      ],
+      "backend": [
+        "Node.js",
+        "Express",
+        "Supabase",
+        "PostgreSQL",
+        "REST APIs",
+        "GraphQL",
+        "Serverless Functions",
+        "Microservices"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "Vercel",
+        "AWS",
+        "Figma",
+        "VS Code",
+        "Webpack",
+        "Babel"
+      ],
+      "ai_ml": [
+        "Machine Learning Integration",
+        "AI-Powered Features",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Predictive Analytics"
+      ]
+    },
+    "projects": {
+      "featured": [
+        {
+          "name": "AI-Powered Portfolio",
+          "description": "Interactive 3D portfolio with AI-driven content management",
+          "technologies": ["Next.js", "Three.js", "Supabase", "TypeScript"],
+          "url": "https://shakeb.tech"
+        }
+      ]
+    },
+    "education": {
+      "degree": "Computer Science / Software Engineering",
+      "institution": "Your University Name",
+      "focus": "Full-Stack Development, Creative Technology"
+    },
+    "social": {
+      "github": "https://github.com/shakeb03",
+      "linkedin": "https://linkedin.com/in/shakeb",
+      "portfolio": "https://shakeb.tech"
+    },
+    "interests": [
+      "Artificial Intelligence",
+      "3D Graphics",
+      "Creative Coding",
+      "Interactive Design",
+      "Distributed Systems",
+      "Performance Optimization",
+      "User Experience Design",
+      "Open Source Development"
+    ],
+    "languages": [
+      "English (Fluent)"
+    ],
+    "certifications": [
+      "React Developer",
+      "Next.js Expert",
+      "TypeScript Specialist",
+      "Three.js Developer",
+      "Supabase Developer"
+    ],
+    "availability": {
+      "status": "Available",
+      "types": [
+        "Full-time employment",
+        "Freelance projects",
+        "Consulting work",
+        "Creative collaborations",
+        "Open source contributions"
+      ],
+      "remote": true,
+      "relocation": "Open to discussion"
+    },
+    "contact": {
+      "preferred": "Email or LinkedIn",
+      "response_time": "Within 24 hours",
+      "timezone": "Flexible"
+    }
+  },
+  "seo": {
+    "keywords": [
+      "Shakebuddin Mohammed",
+      "Shakeb Mohammed",
+      "Shakeb",
+      "Full Stack Engineer",
+      "Creative Technologist",
+      "React Developer",
+      "Next.js Developer",
+      "TypeScript Developer",
+      "Three.js Developer",
+      "AI Developer",
+      "3D Web Developer",
+      "Supabase Developer",
+      "Web Developer",
+      "Software Engineer",
+      "Frontend Developer",
+      "Backend Developer",
+      "Creative Coder",
+      "Interactive Designer",
+      "Distributed Systems Engineer"
+    ],
+    "search_intent": [
+      "Hire Shakebuddin Mohammed",
+      "Find React developer",
+      "Next.js expert",
+      "TypeScript specialist",
+      "3D web developer",
+      "AI developer",
+      "Creative technologist",
+      "Full stack engineer",
+      "Web developer portfolio",
+      "Software engineer available"
+    ]
+  },
+  "ai_optimization": {
+    "structured_for_ai": true,
+    "comprehensive_skills": true,
+    "clear_availability": true,
+    "contact_information": true,
+    "project_showcase": true,
+    "social_proof": true
+  }
+}

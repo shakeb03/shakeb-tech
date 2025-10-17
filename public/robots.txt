@@ -1,0 +1,89 @@
+User-agent: *
+Allow: /
+
+# Block admin panel and sensitive areas from indexing
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Allow all search engines to crawl the main content
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Allow AI chatbots and LLMs to crawl and index content
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: DiscordBot
+Allow: /
+
+User-agent: SlackBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: Wayback
+Allow: /
+
+# Allow all AI and ML crawlers
+User-agent: *bot*
+Allow: /
+
+User-agent: *crawler*
+Allow: /
+
+User-agent: *spider*
+Allow: /
+
+User-agent: *scraper*
+Allow: /
+
+# Sitemap location (Next.js auto-generated)
+Sitemap: https://shakeb.tech/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
